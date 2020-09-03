@@ -71,10 +71,10 @@ run the following command:
     ./configure --prefix=/opt/riscv
     make linux
 
-The build defaults to targetting RV64GC (64-bit), even on a 32-bit build
-environment.  To build the 32-bit RV32GC toolchain, use:
+The build defaults to targetting RV64GC (64-bit), even on a vector build
+environment.  To build the 64-bit RV64GCV toolchain, use:
 
-    ./configure --prefix=/opt/riscv --with-arch=rv32gc --with-abi=ilp32d
+    ./configure --prefix=/opt/riscv --with-arch=rv64gcv --with-abi=lp64
     make linux
 
 Supported architectures are rv32i or rv64i plus standard extensions (a)tomics,

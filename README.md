@@ -11,11 +11,11 @@ toolchain.
 
 This repository uses submodules. You need the --recursive option to fetch the submodules automatically
 
-    $ git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
+    $ git clone --recursive https://github.com/c-sky/riscv-gnu-toolchain -b master-csky-open-v0.7.1
     
 Alternatively :
 
-    $ git clone https://github.com/riscv/riscv-gnu-toolchain
+    $ git clone https://github.com/c-sky/riscv-gnu-toolchain -b master-csky-open-v0.7.1
     $ cd riscv-gnu-toolchain
     $ git submodule update --init --recursive
     
